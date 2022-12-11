@@ -252,7 +252,7 @@ button {
   justify-content: center;
   padding-bottom: 30px;
 }
-.instagramclick {
+.flexclick {
   fill: #afb1b8;
 }
 .instagramclick:hover {
@@ -262,6 +262,12 @@ button {
   border-radius: 100%;
 }
 
+.linkedinclick:hover {
+  cursor: pointer;
+  fill: var(--fifhtcolor);
+  background: var(--fourthcolor);
+  border-radius: 100%;
+}
 .customerfourt {
   fill: #afb1b8;
 }
