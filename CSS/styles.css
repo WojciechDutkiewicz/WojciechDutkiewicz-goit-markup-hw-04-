@@ -97,6 +97,27 @@ button {
   gap: 46px;
   letter-spacing: 0.02em;
 }
+.post-img {
+  margin-right: 10px;
+}
+.mail-click:hover,
+.mail-click:focus {
+  color: #2196f3;
+  stroke: #2196f3;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+.smartphone-img {
+  margin-right: 10px;
+}
+.smartphone-click:hover,
+.smartphone-click:focus {
+  color: #2196f3;
+  stroke: #2196f3;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contact-links a:hover,
@@ -117,6 +138,10 @@ button {
   background-color: var(--sixthcolor);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) 50%, rgba(47, 48, 58, 0.4) 50%),
+    url(../images/backgroundimage.jpg);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .main-header {
   font-size: 44px;
@@ -149,6 +174,10 @@ button {
 .loremitem {
   flex-basis: calc((100%- 90px) / 4);
 }
+.icon-lorem {
+  margin-bottom: 20px;
+}
+
 .section-ourteam {
   padding-top: 0;
 }
@@ -207,7 +236,7 @@ button {
 }
 .employee-description {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .position {
   font-size: 16px;
@@ -215,6 +244,31 @@ button {
   text-align: center;
   color: var(--thirdcolor);
   letter-spacing: 0.03em;
+}
+
+.flexclick {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.instagramclick {
+  fill: #afb1b8;
+}
+.instagramclick:hover {
+  cursor: pointer;
+  fill: var(--fifhtcolor);
+  background: var(--fourthcolor);
+  border-radius: 100%;
+}
+
+.customerfourt {
+  fill: #afb1b8;
+}
+.customerfourt:hover {
+  fill: var(--fourthcolor);
+  outline: 1px solid var(--fourthcolor);
+  cursor: pointer;
 }
 .contactfooter {
   line-height: 1.71;
