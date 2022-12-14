@@ -29,6 +29,7 @@ h3,
 p {
   margin: 0 auto;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -78,7 +79,7 @@ button {
   font-size: 26px;
   font-weight: 700;
   color: var(--secondcolor);
-  margin-right: auto;
+  margin-right: 93px;
   letter-spacing: 0.03em;
 }
 .pieceofbrand {
@@ -99,40 +100,40 @@ button {
 }
 .post-img {
   margin-right: 10px;
+  fill: currentColor;
 }
-.mail-click:hover,
-.mail-click:focus {
-  color: #2196f3;
-  stroke: #2196f3;
-  stroke-width: 2px;
-  cursor: pointer;
+.mail:hover,
+.mail:focus {
+  fill: var(--fourthcolor);
+  color: var(--fourthcolor);
 }
+
 .smartphone-img {
   margin-right: 10px;
+  fill: currentColor;
 }
-.smartphone-click:hover,
-.smartphone-click:focus {
-  color: #2196f3;
-  stroke: #2196f3;
-  stroke-width: 2px;
-  cursor: pointer;
+
+.smartphone:hover,
+.smartphone:focus {
+  fill: var(--fourthcolor);
+  color: var(--fourthcolor);
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.contact-links a:hover,
-.contact-links a:focus {
+.nav-link:focus {
   color: var(--fourthcolor);
   cursor: pointer;
 }
 .contact-links {
-  font-weight: 500;
   color: var(--thirdcolor);
   margin-left: auto;
   gap: 50px;
 }
 .contact-links a {
-  color: inherit;
+  font-weight: 500;
+  color: currentColor;
+  letter-spacing: 0.02em;
+  font-size: 14px;
 }
 .main-section {
   background-color: var(--sixthcolor);
@@ -140,7 +141,11 @@ button {
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4) 50%, rgba(47, 48, 58, 0.4) 50%),
     url(../images/backgroundimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   max-width: 1600px;
+  height: 600px;
   margin: 0 auto;
 }
 .main-header {
@@ -174,8 +179,16 @@ button {
 .loremitem {
   flex-basis: calc((100%- 90px) / 4);
 }
-.icon-lorem {
-  margin-bottom: 20px;
+.lorem-background {
+  display: flex;
+  width: 277px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+}
+.loremsection {
+  padding-top: 30px;
 }
 
 .section-ourteam {
