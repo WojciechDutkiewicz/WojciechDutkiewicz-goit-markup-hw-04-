@@ -37,8 +37,22 @@
           </ul>
         </nav>
         <ul class="contact-links list-upper">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="mail" href="mailto:info@devstudio.com">
+              <svg class="post-img" width="16" height="12">
+                <use href="./icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="smartphone" href="tel:+48111111111">
+              <svg class="smartphone-img" width="10" height="16">
+                <use href="./icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -64,8 +78,9 @@
                 height="294"
               />
               <div class="border">
-              <h3 class="portfolioheader">Technocrack</h3>
-              <p class="portfoliodescription">Strona internetowa</p></div>
+                <h3 class="portfolioheader">Technocrack</h3>
+                <p class="portfoliodescription">Strona internetowa</p>
+              </div>
             </li>
             <li class="image-border">
               <img
@@ -75,33 +90,44 @@
                 height="294"
               />
               <div class="border">
-              <h3 class="portfolioheader">Grafika New Orlean vs Golden Star</h3>
-              <p class="portfoliodescription">Dizajn</p></div>
+                <h3 class="portfolioheader">Grafika New Orlean vs Golden Star</h3>
+                <p class="portfoliodescription">Dizajn</p>
+              </div>
             </li>
             <li class="image-border">
               <img src="./images/restaurant.jpg" alt="logo restauracji" width="370" height="294" />
-              <div class="border"><h3 class="portfolioheader">Restauracja Seafood</h3>
-              <p class="portfoliodescription">Aplikacja</p></div>
+              <div class="border">
+                <h3 class="portfolioheader">Restauracja Seafood</h3>
+                <p class="portfoliodescription">Aplikacja</p>
+              </div>
             </li>
             <li class="image-border">
               <img src="./images/project-prime.jpg" alt="słuchawki" width="370" height="294" />
-              <div class="border"><h3 class="portfolioheader">Projekt Prime</h3>
-              <p class="portfoliodescription">Marketing</p></div>
+              <div class="border">
+                <h3 class="portfolioheader">Projekt Prime</h3>
+                <p class="portfoliodescription">Marketing</p>
+              </div>
             </li>
             <li class="image-border">
               <img src="./images/project-boxex.jpg" alt="dwa pudełka" width="370" height="294" />
-              <div class="border"><h3 class="portfolioheader">Projekt Boxes</h3>
-              <p class="portfoliodescription">Aplikacja</p></div>
+              <div class="border">
+                <h3 class="portfolioheader">Projekt Boxes</h3>
+                <p class="portfoliodescription">Aplikacja</p>
+              </div>
             </li>
             <li class="image-border">
               <img src="./images/inspiration.jpg" alt="ekran monitora" width="370" height="294" />
-              <div class="border"><h3 class="portfolioheader">Inspiration has no Borders</h3>
-              <p class="portfoliodescription">Strona internetowa</p></div>
+              <div class="border">
+                <h3 class="portfolioheader">Inspiration has no Borders</h3>
+                <p class="portfoliodescription">Strona internetowa</p>
+              </div>
             </li>
             <li class="image-border">
               <img src="./images/magazine.jpg" alt="otwarte czasopismo" width="370" height="294" />
-              <div class="border"><h3 class="portfolioheader">Magazyn Limited Edition</h3>
-              <p class="portfoliodescription">Dizajn</p></div>
+              <div class="border">
+                <h3 class="portfolioheader">Magazyn Limited Edition</h3>
+                <p class="portfoliodescription">Dizajn</p>
+              </div>
             </li>
             <li class="image-border">
               <img
@@ -109,9 +135,11 @@
                 alt="etykieta z nazwą projektu"
                 width="370"
                 height="294"
-              /><div class="border">
-              <h3 class="portfolioheader">Projekt LAB</h3>
-              <p class="portfoliodescription">Marketing</p></div>
+              />
+              <div class="border">
+                <h3 class="portfolioheader">Projekt LAB</h3>
+                <p class="portfoliodescription">Marketing</p>
+              </div>
             </li>
             <li class="image-border">
               <img
@@ -119,29 +147,71 @@
                 alt="otwarty laptop"
                 width="370"
                 height="294"
-              /><div class="border">
-              <h3 class="portfolioheader">Growing Business</h3>
-              <p class="portfoliodescription">Aplikacja</p></div>
+              />
+              <div class="border">
+                <h3 class="portfolioheader">Growing Business</h3>
+                <p class="portfoliodescription">Aplikacja</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container container-footer">
-      <a href="index.html" class="brandnamefooter"><span class="pieceofbrand">Web</span>Studio</a>
-      <address>
-        <ul class="footerlist">
-          <li>
-            <a href="https://www.google.pl/" class="localization"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li><a href="mailto:info@devstudio.com" class="contactfooter">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111" class="contactfooter">tel:+48 111 111 111</a></li>
-        </ul>
-      </address>
+      <div class="container footercontainer">
+        <div class="footerbrandparagraph">
+          <a href="index.html" class="brandnamefooter"
+            ><span class="pieceofbrand">Web</span>Studio</a
+          >
+          <address>
+            <ul class="footerlist">
+              <li>
+                <a href="https://www.google.pl/" class="localization"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="contactfooter">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+48111111111" class="contactfooter">tel:+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footersocials">
+          <p class="joinus">dołącz do nas</p>
+          <ul class="flexclickfooter">
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><svg class="instagramclick clickfooter" width="44" height="44">
+                  <use
+                    width="20"
+                    x="12"
+                    class="org"
+                    href="./sprite.svg#icon-instagramorg"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><svg class="twitterclick clickfooter" width="44" height="44">
+                  <use width="20" x="12" href="./icons.svg#icon-twitterorg"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><svg class="facebookclick clickfooter" width="44" height="44">
+                  <use width="20" x="12" href="./icons.svg#icon-facebookorg"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><svg class="linkedinclick clickfooter" width="44" height="44">
+                  <use width="20px" x="12" class="org" href="./icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-  </div>
   </body>
 </html>
