@@ -42,6 +42,7 @@ ul {
 }
 a {
   text-decoration: none;
+  margin: 0;
 }
 button {
   display: block;
@@ -118,7 +119,11 @@ button {
   fill: var(--fourthcolor);
   color: var(--fourthcolor);
 }
-
+.mail,
+.smartphone {
+  display: flex;
+  align-items: center;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--fourthcolor);
@@ -181,11 +186,12 @@ button {
 }
 .lorem-background {
   display: flex;
-  width: 277px;
+  width: 270px;
   height: 120px;
   justify-content: center;
   align-items: center;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .loremsection {
   padding-top: 30px;
@@ -212,8 +218,8 @@ button {
   letter-spacing: 0.03em;
   font-weight: 700;
   color: var(--brandcolor);
-  margin-top: 0;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .loremdescrition {
   line-height: 1.71;
@@ -264,29 +270,33 @@ button {
   gap: 10px;
   justify-content: center;
   padding-bottom: 30px;
-}
-.flexclick {
   fill: #afb1b8;
 }
-.instagramclick:hover {
-  cursor: pointer;
-  fill: var(--fifhtcolor);
-  background: var(--fourthcolor);
-  border-radius: 100%;
+.sociallinks {
+  fill: #afb1b8;
 }
 
-.linkedinclick:hover {
+.instagramclick:hover,
+.linkedinclick:hover,
+.facebookclick:hover,
+.twitterclick:hover {
   cursor: pointer;
   fill: var(--fifhtcolor);
   background: var(--fourthcolor);
   border-radius: 100%;
 }
-.customerfourt {
-  fill: #afb1b8;
+.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.customerfourt:hover {
-  fill: var(--fourthcolor);
-  outline: 1px solid var(--fourthcolor);
+.customer:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
   cursor: pointer;
 }
 .contactfooter {
@@ -311,6 +321,7 @@ button {
 .footerlist > li:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .brandnamefooter {
   display: block;
   font-family: 'Raleway';
@@ -319,7 +330,56 @@ button {
   text-align: left;
   color: var(--fifhtcolor);
   margin-bottom: 20px;
+  margin-right: 171px;
   letter-spacing: 0.03em;
+}
+.localization {
+  margin-right: 70px;
+}
+.joinus {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--fifhtcolor);
+
+  margin-bottom: 20px;
+}
+.flexclickfooter {
+  display: flex;
+  gap: 10px;
+
+  fill: var(--fifhtcolor);
+}
+.clickfooter {
+  fill: var(--fifhtcolor);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+
+.linkedinclick:hover {
+  cursor: pointer;
+  fill: var(--fifhtcolor);
+  background: var(--fourthcolor);
+  border-radius: 100%;
+}
+.facebookclick:hover {
+  cursor: pointer;
+  fill: var(--fifhtcolor);
+  background: var(--fourthcolor);
+  border-radius: 100%;
+}
+.twitterclick:hover {
+  cursor: pointer;
+  fill: var(--fifhtcolor);
+  background: var(--fourthcolor);
+  border-radius: 100%;
+}
+.footercontainer {
+  display: flex;
 }
 
 .button-next {
