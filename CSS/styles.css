@@ -380,6 +380,7 @@ button {
 }
 .footercontainer {
   display: flex;
+  align-items: baseline;
 }
 
 .button-next {
