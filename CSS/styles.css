@@ -315,7 +315,6 @@ button {
 .customer:focus {
   color: #2196f3;
   border-color: #2196f3;
-  cursor: pointer;
 }
 .contactfooter {
   line-height: 1.71;
