@@ -192,9 +192,7 @@ button {
   align-items: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-.loremsection {
-  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .section-ourteam {
@@ -273,17 +271,32 @@ button {
   fill: #afb1b8;
 }
 .sociallinks {
-  fill: #afb1b8;
+  display: flex;
+  color: #afb1b8;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
-
-.instagramclick:hover,
-.linkedinclick:hover,
-.facebookclick:hover,
-.twitterclick:hover {
+.sociallinks:hover,
+.sociallinks:focus {
   cursor: pointer;
-  fill: var(--fifhtcolor);
+  color: var(--fifhtcolor);
   background: var(--fourthcolor);
-  border-radius: 100%;
+}
+.instagramclick,
+.linkedinclick,
+.facebookclick,
+.twitterclick {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+.flexclickcustomers {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 .customer {
   display: flex;
@@ -293,9 +306,14 @@ button {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: #afb1b8;
 }
-.customer:hover {
-  fill: #2196f3;
+.client {
+  fill: currentColor;
+}
+.customer:hover,
+.customer:focus {
+  color: #2196f3;
   border-color: #2196f3;
   cursor: pointer;
 }
@@ -355,29 +373,10 @@ button {
   fill: var(--fifhtcolor);
 }
 .clickfooter {
-  fill: var(--fifhtcolor);
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
-.linkedinclick:hover:focus {
-  cursor: pointer;
-  fill: var(--fifhtcolor);
-  background: var(--fourthcolor);
-  border-radius: 100%;
-}
-.facebookclick:hover:focus {
-  cursor: pointer;
-  fill: var(--fifhtcolor);
-  background: var(--fourthcolor);
-  border-radius: 100%;
-}
-.twitterclick:hover:focus {
-  cursor: pointer;
-  fill: var(--fifhtcolor);
-  background: var(--fourthcolor);
-  border-radius: 100%;
-}
 .footercontainer {
   display: flex;
   align-items: baseline;
@@ -419,7 +418,8 @@ button {
 .image-border {
   width: 370px;
 }
-.image-border:hover {
+.image-border:hover,
+.image-border:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
