@@ -304,9 +304,9 @@ button {
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   color: #afb1b8;
+  border: 1px solid currentColor;
+  border-radius: 4px;
 }
 .client {
   fill: currentColor;
